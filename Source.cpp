@@ -2,37 +2,27 @@
 using namespace std;
 int main()
 {
-	cout << "Enter the side lenghts.\n";
+	cout << "Enter the point.\n ";
+	double x, y;
+	cout << "x= ";
+	cin >> x;
+	cout << "y= ";
+	cin >> y;
 
-	double a, b, c;
+	system("cls");
 
-	cout << "a= ";
-	cin >> a;
-	cout << "b= ";
-	cin >> b;
-	cout << "c= ";
-	cin >> c;
-
-	if (a + b <= c || a + c <= b || b + c <= a)
+	if (x > 0 && x * x + y * y <= 1)
 	{
-		cout << "Not triangle.\n";
+		cout << "Point in the area.\n";
 	}
-
-	else if (a == b && b == c)
+	else if (x >= -1 && x <= 0 && y >= -1 && y <= 1)
 	{
-		cout << "Triangle is equilateral.\n";
+		cout << "Point in the area.\n";
 	}
-
-	else if (a == b || a == c || b == c)
-	{
-		cout << "triangle is isosceles.\n";
-	}
-
 	else
 	{
-		cout << "Triangle versatile.\n";
+		cout << "Point not in the area.\n";
 	}
-
 
 	system("pause");
 	return 0;
