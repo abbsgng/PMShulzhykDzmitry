@@ -15,7 +15,7 @@ int main()
 	{
 		cout << "Point in the area.\n";
 	}
-	else if (x >= -1 && x <= 0 && y >= -1 && y <= 1)
+	else if (x <= 0 && y <= 0 && x * x + y * y <= sqrt(2))
 	{
 		cout << "Point in the area.\n";
 	}
