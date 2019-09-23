@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	cout << "Enter the number.\n";
+	cout << "Enter the side lenghts.\n";
 
 	double a, b, c;
 
@@ -13,19 +13,27 @@ int main()
 	cout << "c= ";
 	cin >> c;
 
-	double min;
-
-	min = a;
-	if (min > b)
+	if (a + b <= c || a + c <= b || b + c <= a)
 	{
-		min = b;
-	}
-	if (min > c)
-	{
-		min = c;
+		cout << "Not triangle.\n";
 	}
 
-	cout << "The smallest number " << min << endl;
+	else if (a == b && b == c)
+	{
+		cout << "Triangle is equilateral.\n";
+	}
+
+	else if (a == b || a == c || b == c)
+	{
+		cout << "triangle is isosceles.\n";
+	}
+
+	else
+	{
+		cout << "Triangle versatile.\n";
+	}
+
+
 	system("pause");
 	return 0;
 }
