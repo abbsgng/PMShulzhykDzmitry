@@ -5,7 +5,7 @@
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-inprogress.png) - в процессе выполнения
 
-![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
+![Scheduled](https://github.com/abbsgng/1course1semester/blob/master/png/button1.png) - выполнено
 
 ---
 
