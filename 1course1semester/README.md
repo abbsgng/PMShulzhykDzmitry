@@ -32,6 +32,6 @@
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/25.09/Source.cpp)
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/25.09/Source(1).cpp)
-| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|[Link to cpp-file](/)
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/25.09/Source(3).cpp)
 | 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|[Link to cpp-file](/)
 | 5 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Link to cpp-file](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/25.09/Source(2).cpp)
