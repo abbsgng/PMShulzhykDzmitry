@@ -77,3 +77,13 @@
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 2](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/30.10.19/N2.cpp)
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 3](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/30.10.19/N3.cpp)
 | 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 4](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/30.10.19/N4.cpp)
+
+---
+
+### 06.11.2019 
+| Task | Task Status | Additional/Comments |
+| -------- | -------- | --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 1](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/06.11.19/N1.cpp)
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 2](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/06.11.19/N2.cpp)
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 3](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/06.11.19/N3.cpp)
+| 4 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 4](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/06.11.19/N4.cpp)
