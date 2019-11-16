@@ -94,5 +94,5 @@
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 1](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/13.11.19/BubbleSort.cpp)
-| 2 | ![Scheduled]()|[Number 2]()
-| 3 | ![Scheduled]()|[Number 3]()
+| 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|[Number 2]()
+| 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png)|[Number 3]()
