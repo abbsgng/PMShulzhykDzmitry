@@ -98,7 +98,7 @@
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 3](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/13.11.19/InsertionSort.cpp)
 
 ---
-
+did as he could :(
 ### 20.11.2019 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
@@ -106,4 +106,4 @@
 | 2 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 2](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/20.11.19/N2.cpp)
 | 3 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 3](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/20.11.19/N3.cpp)
 | 4 | ![Scheduled]()|[Number 4]()
-did as he could :(
+
