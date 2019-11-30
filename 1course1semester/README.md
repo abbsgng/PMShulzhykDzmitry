@@ -114,6 +114,6 @@ did as he could :(
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Number 1](https://github.com/abbsgng/PMShulzhykDzmitri/blob/master/1course1semester/27.11.19/N1.cpp)
-| 2 |()|()
-| 3 |()|()
-| 4 |()|()
+| 2 ||
+| 3 ||
+| 4 ||
