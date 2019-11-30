@@ -54,13 +54,13 @@ void display(int t)
 	switch (t)
 	{
 	case 1:
-		cout << "String are equal.\n";
+		cout << "Strings are equal.\n";
 		break;
 	case 2:
-		cout << "First string are bigger than second string.\n";
+		cout << "First string is bigger than second string.\n";
 		break;
 	case 3:
-		cout << "First string are smaller than second string.\n";
+		cout << "First string is smaller than second string.\n";
 	}
 }
 void menu()
