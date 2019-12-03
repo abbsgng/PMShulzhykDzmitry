@@ -74,9 +74,24 @@ int comapre(const char* lhs,int const lhsLength,  const char* rhs, int const rhs
 	}
 
 }
+void validation(char* string, int lengthString, char* subString, int lengthSubString)
+{
+	if (string == nullptr)
+	{
+		throw std::invalid_argument("String cannot be null!");
+	}
+	if (subString == nullptr)
+	{
+		throw std::invalid_argument("String cannot be null!");
+	}
+	if (lengthSubString > lengthString)
+	{
+		throw std::invalid_argument("Substring cannot be bigger!");
+	}
+}
 int indexSubstringInString(char* string, int lengthString, char* subString, int lengthSubString)
 {
-	validation(string, lengthString, subString, lengthSubString);
+	//validation(string, lengthString, subString, lengthSubString);
 
 	int index = -1;
 	int counter = 0;
@@ -114,19 +129,5 @@ int indexSubstringInString(char* string, int lengthString, char* subString, int 
 	}
 	return index;
 }
-void validation(char* string, int lengthString, char* subString, int lengthSubString)
-{
-	if (string == nullptr)
-	{
-		throw std::invalid_argument("String cannot be null!");
-	}
-	if (subString == nullptr)
-	{
-		throw std::invalid_argument("String cannot be null!");
-	}
-	if (lengthSubString > lengthString)
-	{
-		throw std::invalid_argument("Substring cannot be bigger!");
-	}
-}
+
 
