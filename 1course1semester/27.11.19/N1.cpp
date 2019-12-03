@@ -27,7 +27,6 @@ void menu()
 		cin >> button;
 		system("cls");
 
-
 		switch (button)
 		{
 		case '1':
@@ -49,18 +48,20 @@ void menu()
 void console()
 {
 	int const n = 256;
+
 	cout << "Hello, enter the string.\n";
 	char* string = new char[n];
 	cin.getline(string, n, '\n');
+
 	char* subString = new char[n];
 	cout << "Well, and now enter the word.\n";
 	cin.getline(subString, n, '\n');
+
 	int lengthString = getlength(string);
 	int lengthSubString = getlength(subString);
+
 	int index = indexSubstringInString(string, lengthString, subString, lengthSubString);
 	cout << index << endl;
-
-
 }
 void runTest()
 {
