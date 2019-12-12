@@ -62,12 +62,12 @@ int* encoding(const char* source, const char* rule)
 char* decoding(const int* source, int n, const char* rule)
 {
 	char* decode = new char[n];
-	int t = 0;
-	for (int i = 0; i < n; i++)
+	int t = 0, i = 0;
+	for ( ; i < n; i++)
 	{
 		if (1 <= source[i] && source[i] <= 26)
 		{
-			t = source[i];
+			t = source[i] - 1;
 			decode[i] = rule[t];
 		}
 		else
@@ -75,7 +75,7 @@ char* decoding(const int* source, int n, const char* rule)
 			decode[i] = source[i];
 		}
 	}
-	
+	decode[i] = '\0';
 	return decode;
 }
 
