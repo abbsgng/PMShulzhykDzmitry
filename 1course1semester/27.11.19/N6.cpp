@@ -43,7 +43,6 @@ void menu()
 			system("cls");
 		}
 	}
-
 }
 void console()
 {
