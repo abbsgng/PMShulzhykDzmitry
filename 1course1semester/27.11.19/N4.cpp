@@ -43,7 +43,6 @@ void menu()
 			system("cls");
 		}
 	}
-
 }
 void console()
 {
@@ -67,10 +66,6 @@ void console()
 
 	char* finishString = replacementString(string, ls, deleteString, lds, addString, las);
 	cout << finishString;
-
-
-
-
 }
 char* replacementString(char* string, int ls, char* deleteString, int lds, char* addString, int las)
 {
@@ -104,8 +99,6 @@ char* replacementString(char* string, int ls, char* deleteString, int lds, char*
 	finishString[lfs] = '\0';
 
 	return replacementString(finishString, lfs, deleteString, lds, addString, las);
-
-
 }
 void validation(char* string, char* deleteString, char* addString)
 {
@@ -121,7 +114,6 @@ void validation(char* string, char* deleteString, char* addString)
 	{
 		throw std::invalid_argument("String cannot be null!");
 	}
-
 }
 void runTest()
 {
