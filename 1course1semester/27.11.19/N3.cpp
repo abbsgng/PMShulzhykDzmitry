@@ -9,12 +9,12 @@ char* transferToAnotherSystem(int, int);
 void console();
 void swap(char*, int);
 
-
 int main()
 {
 	console();
 	return 0;
 }
+
 int enterNumber()
 {
 	int number;
@@ -22,6 +22,7 @@ int enterNumber()
 	cin >> number;
 	return number;
 }
+
 int enterScaleOfNotation()
 {
 	short digit;
@@ -29,6 +30,7 @@ int enterScaleOfNotation()
 	cin >> digit;
 	return digit;
 }
+
 char* transferToAnotherSystem(int number, int digit)
 {
 	int const n = 64;
@@ -49,13 +51,13 @@ char* transferToAnotherSystem(int number, int digit)
 		}
 		anotherNumber[i] = remainder;
 		i++;
-
 	}
 	anotherNumber[i] = '\0';
 	int gl = getlength(anotherNumber);
 	swap(anotherNumber, gl);
 	return anotherNumber;
 }
+
 void console()
 {
 	int number = enterNumber();
@@ -63,6 +65,7 @@ void console()
 	char* anotherNumber = transferToAnotherSystem(number, digit);
 	cout << anotherNumber;
 }
+
 void swap(char* arr, int n)
 {
 	for (int i = 0, t = 0, k = n - 1; k > i; i++, k--)
