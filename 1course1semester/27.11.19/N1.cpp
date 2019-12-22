@@ -12,7 +12,7 @@ void testing(int, char[], int, char[], int, int);
 
 int main()
 {
-	console();
+	menu();
 	return 0;
 }
 
