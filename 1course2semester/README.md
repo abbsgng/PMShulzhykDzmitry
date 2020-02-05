@@ -1,4 +1,4 @@
-# 1 семестр
+# 2 семестр
 
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-target.png) - запланировано
