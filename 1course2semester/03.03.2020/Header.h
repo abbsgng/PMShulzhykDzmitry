@@ -5,7 +5,7 @@ using namespace std;
 
 int const N = 20;
 
-enum Gender { male = 1, female=0 };
+enum Gender { male = 1, female = 0 };
 
 struct Date
 {
@@ -28,7 +28,7 @@ public:
 	Date();
 	Date(int year, int month, int day);
 private:
-	static void dayValidation();
+	void dayValidation();
 	static bool isYearLeap(int year);
 	int day;
 	int month;
