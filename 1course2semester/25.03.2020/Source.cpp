@@ -17,7 +17,7 @@ int main()
 	char* temp = new char[256];
 	char path[N] = "C:\\Users\\Термокаскад\\Desktop\\turks.txt";
 	temp = fromFile(path, temp);
-	toFile(path, temp, 4);
+	toFile(path, temp, 2);
 	delete[] temp;
 }
 
@@ -51,7 +51,7 @@ void deleteSubString(char* source, short size)
 		temp[j++] = source[i];
 	}
 	temp[j] = '\0';
-	strcpy(source, temp); cleanString(buffer);
+	strcpy(source, temp);
 	delete[] temp, buffer;
 }
 void cleanString(char* source)
