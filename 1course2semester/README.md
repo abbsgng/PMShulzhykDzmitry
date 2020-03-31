@@ -12,7 +12,7 @@
 ### personal work
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Task 1](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personal%20work(Shulzhyk%20Dzmitry)/Source.cpp)
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Task 13](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personal%20work(Shulzhyk%20Dzmitry)/Source.cpp)
 
 ---
 
