@@ -7,10 +7,11 @@
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
-### personal work 2
+
+### personal work 2 
 | Task | Task Status | Additional/Comments | Screen |
-| -------- | -------- | --------| --------|  
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Task 11](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork2(Shulzhyk%20Dzmitry)/Source.cpp)|[screen] (https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork2(Shulzhyk%20Dzmitry)/Screen.jpg)
+| -------- | -------- | --------|  --------| 
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[Task 11](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork2(Shulzhyk%20Dzmitry)/Source.cpp)|[screen](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork2(Shulzhyk%20Dzmitry)/Screen.jpg)
 
 ---
 
