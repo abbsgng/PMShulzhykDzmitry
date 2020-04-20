@@ -10,7 +10,7 @@
 ### 15.04.2020 
 | Task | Task Status | Additional/Comments | Header | Class |  
 | -------- | -------- | --------|  --------|  --------|  
-| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[binary](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/BigInteger.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/BigInteger.cpp)
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[BigInteger](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/BigInteger.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/15.04.2020/BigInteger.cpp)
 
 ---
 
