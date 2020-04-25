@@ -12,7 +12,7 @@ BigInteger::BigInteger()
 	setDigits(temp);
 }
 
-BigInteger::BigInteger(char* digits)
+BigInteger::BigInteger(const char* digits)
 {
 	setDigitLength(strlen(digits));
 	setDigits(digits);
@@ -30,7 +30,7 @@ BigInteger::~BigInteger()
 	delete[] digits;
 }
 
-BigInteger& BigInteger::operator+(BigInteger& other)
+BigInteger& BigInteger::operator+(const BigInteger& other)
 {
 	char* temp = add(digits, other.digits);
 	setDigitLength(strlen(temp) + 1);
@@ -38,7 +38,7 @@ BigInteger& BigInteger::operator+(BigInteger& other)
 	return *this;
 }
 
-BigInteger& BigInteger::operator-(BigInteger& other)
+BigInteger& BigInteger::operator-(const BigInteger& other)
 {
 	char* temp = subtraction(digits, other.digits);
 	setDigitLength(strlen(temp) + 1);
@@ -46,7 +46,7 @@ BigInteger& BigInteger::operator-(BigInteger& other)
 	return *this;
 }
 
-BigInteger& BigInteger::operator=(BigInteger& other)
+BigInteger& BigInteger::operator=(const BigInteger& other)
 {
 	digitLength = other.digitLength;
 	this->digits = new char[digitLength + 1];
@@ -60,10 +60,10 @@ void BigInteger::setDigitLength(int length)
 	{
 		throw std::invalid_argument("Invalid argument");
 	}
-	digitLength = length;
+	digitLength = length+1;
 }
 
-void BigInteger::setDigits(char* digits)
+void BigInteger::setDigits(const char* digits)
 {
 	if (digits == nullptr)
 	{
@@ -177,7 +177,7 @@ int BigInteger::toDigit(char symbol)
 	return symbol;
 }
 
-bool BigInteger::isDataValid(char* digits)
+bool BigInteger::isDataValid(const char* digits)
 {
 	for (int i = 0; i < strlen(digits); ++i)
 	{
@@ -189,7 +189,14 @@ bool BigInteger::isDataValid(char* digits)
 	return true;
 }
 
-void BigInteger::display()
+ostream& operator<<(ostream& out, BigInteger& number)
 {
-	std::cout << this->digits;
+	out << number.digits;
+	return out;
+}
+
+istream& operator>>(istream& in, BigInteger& number)
+{
+	in >> number.digits;
+	return in;
 }
