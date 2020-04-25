@@ -1,25 +1,27 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma once
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 class BigInteger
 {
 public:
 	BigInteger();
-	BigInteger(char*);
+	BigInteger(const char*);
 	BigInteger(BigInteger const&);
 	~BigInteger();
-	BigInteger& operator+(BigInteger&);
-	BigInteger& operator-(BigInteger&);
-	BigInteger& operator=(BigInteger&);
-	void display();
+	BigInteger& operator+(const BigInteger&);
+	BigInteger& operator-(const BigInteger&);
+	BigInteger& operator=(const BigInteger&);
+	friend ostream& operator<<(ostream&, BigInteger&);
+	friend istream& operator>>(istream&, BigInteger&);
 private:
 	char* digits;
 	int digitLength;
-	static bool isDataValid(char*);
+	static bool isDataValid(const char*);
 	void setDigitLength(int);
-	void setDigits(char*);
+	void setDigits(const char*);
 	static char* subtraction(char*, char*);
 	static char* add(char*, char*);
 	static void swap(char*&, char*&);
