@@ -8,7 +8,7 @@
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
 
-### 08.04.2020 
+### 22.04.2020 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[sortBinary](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/22.04.2020/Source.cpp)
