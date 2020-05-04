@@ -8,6 +8,13 @@
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
 
+### 29.04.2020 
+| Task | Task Status | Additional/Comments | Header | Class |  
+| -------- | -------- | --------|  --------|  --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[LinkedList](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/29.04.2020/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/29.04.2020/LinkedList.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/29.04.2020/LinkedList.cpp)
+
+---
+
 ### 22.04.2020 
 | Task | Task Status | Additional/Comments |
 | -------- | -------- | --------|  
