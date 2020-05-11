@@ -12,14 +12,54 @@ LinkedList::LinkedList(int* values, int n) : head(nullptr)
 	}
 }
 
+LinkedList::LinkedList(const LinkedList& list) : head(nullptr)
+{
+	int size = list.size();
+	int* array = list.copyToArray(size);
+	for (int i = size - 1; i >= 0; --i)
+	{
+		addFirst(array[i]);
+	}
+	delete[] array;
+}
+
 LinkedList::~LinkedList()
 {
 	clear();
 }
 
-bool LinkedList::isEmpty()
+bool LinkedList::isEmpty() const
 {
 	return !head;
+}
+
+bool LinkedList::haveElement(int value) const
+{
+	Node* current = head;
+	while (current)
+	{
+		if (current->item == value)
+		{
+			return true;
+		}
+		else
+		{
+			current = current->next;
+		}
+	}
+	return false;
+}
+
+int LinkedList::size() const
+{
+	int size = 0;
+	Node* current = head;
+	while (current)
+	{
+		size++;
+		current = current->next;
+	}
+	return size;
 }
 
 void LinkedList::addFirst(int value)
@@ -98,50 +138,38 @@ void LinkedList::addLast(int value)
 
 void LinkedList::removeElement(int value)
 {
-	if (isEmpty())
+	if (isEmpty() && !haveElement(value))
 	{
 		return;
 	}
-	Node* current = head, * previous = head, * next = head->next;
+	Node* current = head, * previous = head, * buffer = nullptr;
 	while (head->item == value)
 	{
 		previous = head;
 		head = head->next;
-		delete previous;
 		if (!head)
 		{
 			return;
 		}
+		delete previous;
 	}
 	previous = head,
-		current = previous->next,
-		next = current->next;
+		current = previous->next;
 	while (current)
 	{
 		if (current->item == value)
 		{
-			delete current;
-			if (!next)
-			{
-				previous->next = next;
-				return;
-			}
-			current = next;
+			buffer = current;
+			current = current->next;
+			delete buffer;
 			previous->next = current;
-			next = current->next;
 		}
 		else
 		{
-			if (!next)
-			{
-				return;
-			}
-			previous = current,
-				current = next,
-				next = current->next;
+			previous = current;
+			current = current->next;
 		}
 	}
-
 }
 
 void LinkedList::clear()
@@ -155,7 +183,7 @@ void LinkedList::clear()
 	}
 }
 
-int* LinkedList::copyToArray(int size)
+int* LinkedList::copyToArray(int size) const
 {
 	int* array = new int[size] {0};
 	Node* current = head;
