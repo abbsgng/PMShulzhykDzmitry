@@ -3,20 +3,23 @@
 
 using namespace std;
 
+
+
 int main()
 {
-	const int N = 15;
+	const int N = 50;
 	int* array = new int[N] {0};
-	for (int i = 2; i < N-3; ++i)
+
+	for (int i = 0; i < N; ++i)
 	{
-		array[i] = 1;
+		array[i] = rand() % 20;
 	}
-	
+
 	LinkedList list(array, N);
+	cout << list << endl;
+	list.removeElement(7);
 	cout << list;
 
-	list.removeElement(0);
-	cout << list;
 	delete[] array;
 	return 0;
 }
