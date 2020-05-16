@@ -7,7 +7,7 @@
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
-### 29.04.2020 
+### personalWork3 
 | Task | Task Status | Additional/Comments | Header | Class | Struct |  
 | -------- | -------- | --------|  --------|  --------|  --------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[personalWork3](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Matrix.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Matrix.cpp)|[Struct](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/SetMatrix.h)
