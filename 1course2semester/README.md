@@ -7,6 +7,19 @@
 
 ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png) - выполнено
 
+### personalWork3 
+| Task | Task Status | Additional/Comments | Header | Class | Struct |  
+| -------- | -------- | --------|  --------|  --------|  --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[personalWork3](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Matrix.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/Matrix.cpp)|[Struct](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/personalWork3(Shulzhyk%20Dzmitry)/SetMatrix.h)
+
+---
+
+### filmStrip
+| Task | Task Status | Additional/Comments | Header | Class |  
+| -------- | -------- | --------|  --------|  --------|  
+| 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[filmStrip](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/filmStrip/Source.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/filmStrip/FilmStrip.h)|[Class](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/1course2semester/filmStrip/FilmStrip.cpp)
+
+---
 
 ### 29.04.2020 
 | Task | Task Status | Additional/Comments | Header | Class |  
