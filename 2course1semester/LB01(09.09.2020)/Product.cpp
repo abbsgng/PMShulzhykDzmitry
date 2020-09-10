@@ -4,15 +4,6 @@
 
 using namespace std;
 
-Product::Product()
-{
-	setCost(0);
-	setShelfLife(0);
-	setQuantity(0);
-	setName("-");
-	setMaker("-");
-}
-
 Product::Product(const char* name, const char* maker, int cost, int shelfLife, int quantity)
 {
 	setCost(cost);
@@ -106,7 +97,7 @@ void Product::enter()
 	cout << "Name: ";
 	cin.getline(name, N, '\n');
 	cout << "Maker: ";
-	cin.getline(maker, N,'\n');
+	cin.getline(maker, N, '\n');
 	cout << "Cost: ";
 	cin >> cost;
 	cout << "Shelf Life: ";
@@ -131,5 +122,22 @@ ostream& operator<<(ostream& stream, Product& product)
 	stream << product.cost << endl;
 	stream << product.shelfLife << endl;
 	stream << product.quantity << endl;
+	return stream;
+}
+
+istream& operator>>(istream& stream, Product& product)
+{
+	const int N = 20;
+	char* name = new char[N];
+	char* maker = new char[N];
+	int cost, shelfLife, quantity;
+	stream.getline(name, N, '\n');
+	stream.getline(maker, N, '\n');
+	stream >> cost;
+	stream >> shelfLife;
+	stream >> quantity;
+	product.setProduct(name, maker, cost, shelfLife, quantity);
+	delete[] name;
+	delete[] maker;
 	return stream;
 }
