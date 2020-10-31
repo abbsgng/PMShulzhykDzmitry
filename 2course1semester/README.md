@@ -30,5 +30,5 @@
 
 ### 28.10.2020 
 | Task | Task Status | Additional/Comments | BaseClass | Header | DerivedClass | Header |
-| -------- | -------- | --------|  --------|  ---------| -------| -------------| -------|    
+| -------- | -------- | --------|  --------|  ---------| -------| -------------|  
 | 1 | ![Scheduled](https://github.com/AnzhelikaKravchuk/.NET-Training.-Spring-2019/blob/master/Pictures/icons-ok.png)|[LB04](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/2course1semester/LB04(28.10.2020)/Source.cpp)|[BaseClass](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/2course1semester/LB04(28.10.2020)/Matrix.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/2course1semester/LB04(28.10.2020)/Matrix.h)|[DerivedClass](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/2course1semester/LB04(28.10.2020)/BoolMatrix.cpp)|[Header](https://github.com/abbsgng/PMShulzhykDzmitry/blob/master/2course1semester/LB04(28.10.2020)/BoolMatrix.h)
