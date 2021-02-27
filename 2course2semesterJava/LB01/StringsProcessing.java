@@ -7,9 +7,9 @@ public class StringsProcessing {
             return "-";
         }
         String smallest = strings[0];
-        for (int i = 1; i < strings.length; ++i) {
-            if (strings[i].length() < smallest.length()) {
-                smallest = strings[i];
+        for (String element: strings) {
+            if (element.length() < smallest.length()) {
+                smallest = element;
             }
         }
         return smallest;
