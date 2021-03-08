@@ -1,7 +1,7 @@
 package com.company;
 
 public class StringsProcessing {
-    public String smallest(String[] strings) {
+    public static String smallest(String[] strings) {
         if(strings==null)
         {
             return "-";
