@@ -24,7 +24,7 @@ public class Matrix {
         setMatrix(matrix, rows, columns);
     }
     public Matrix(final Matrix matrix) {
-        setMatrix(matrix.matrix, matrix.rows, matrix.columns);
+        this(matrix.matrix, matrix.rows, matrix.columns);
     }
 
     public void setMatrix(final int[][] matrix, final int rows, final int columns) {
