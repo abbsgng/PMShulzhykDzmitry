@@ -1,0 +1,12 @@
+Descriptive statistical analysis as the name suggests helps in describing the data.
+It gets the summary of data in a way that meaningful information can be interpreted from it.
+Using descriptive analysis, we do not get to a conclusion however we get to know what in the data is i.e. we get to know the quantitative description of the data.
+
+For instance, consider a simple example in which you must determine how well the student performed throughout the semester by calculating the average.
+This average is nothing but the sum of the score in all the subjects in the semester by the total number of subjects.
+This single number is describing the general performance of the student across a potentially wide range of subject experiences.
+
+Whenever we try to describe a large set of observations with a single value, we run into the risk of either distorting the original data or losing any important information.
+The student average won’t determine the strong subject of the student.
+It won’t tell you the specialty of the student or you won’t come to know which subject was easy or strong.
+ In spite of these limitations, Descriptive statistics can provide a powerful summary which may be helpful in comparisons across the various unit.
